@@ -29,7 +29,13 @@ very simple tag cloud jQuery Plugin
 	</ul>
 ```
 ```javascript
+	// default multiplier is "1"
 	$(document).ready(function(){
-		$("#tagcloud").tx3TagCloud();
+		$("#tagcloud").tx3TagCloud({
+			multiplier: 5
+		});
 	});
 ```
+
+# Result
+![tx3 cloud tag result](https://cloud.githubusercontent.com/assets/5341293/2799865/2916b19a-cc68-11e3-8123-b128541c88e5.PNG)
