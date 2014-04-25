@@ -32,8 +32,11 @@
 	<script type="text/javascript" src="jquery-1.9.1.min.js" ></script>
 	<script type="text/javascript" src="jquery.tx3-tag-cloud.js" ></script>
 	<script type="text/javascript">
+	// default multiplier is "1"
 	$(document).ready(function(){
-		$("#tagcloud").tx3TagCloud();
+		$("#tagcloud").tx3TagCloud({
+			multiplier: 5
+		});
 	});
 	</script>
 </body>
