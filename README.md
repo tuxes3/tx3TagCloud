@@ -1,7 +1,7 @@
 tx3TagCloud
 ===========
 
-very simple tag cloud jQuery Plugin
+very simple tag cloud jQuery Plugin. [Live Demo](http://tuxes3.github.io/tx3TagCloud/).
 
 # Usage
 
