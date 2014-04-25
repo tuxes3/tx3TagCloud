@@ -31,7 +31,7 @@
         <hr>
 
         <section id="main_content">
-          
+          <style>
 ul.tx3-tag-cloud
 {
     
@@ -62,40 +62,43 @@ ul.tx3-tag-cloud li a:hover
     -ms-transition: color 250ms linear;
     transition: color 250ms linear;
 }
-<pre><code>    &lt;ul id="tagcloud" style="width:30%;"&gt;
-    &lt;li data-weight="50"&gt;&lt;a href="#"&gt;HTML5&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="24"&gt;&lt;a href="#"&gt;Sharepoint&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="28"&gt;&lt;a href="#"&gt;Silverlight&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="32"&gt;&lt;a href="#"&gt;CSS3&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="38"&gt;&lt;a href="#"&gt;ASP.NET&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="60"&gt;&lt;a href="#"&gt;.NET&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="38"&gt;&lt;a href="#"&gt;C#&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="27"&gt;&lt;a href="#"&gt;VB.NET&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="47"&gt;&lt;a href="#"&gt;MySql&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="30"&gt;&lt;a href="#"&gt;SQL 2008&lt;/a&gt; &lt;/li&gt;
-    &lt;li data-weight="37"&gt;&lt;a href="#"&gt;html&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="60"&gt;&lt;a href="#"&gt;jQuery&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="40"&gt;&lt;a href="#"&gt;WCF&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="38"&gt;&lt;a href="#"&gt;C#&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="47"&gt;&lt;a href="#"&gt;VB.NET&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="20"&gt;&lt;a href="#"&gt;Visual Studio 2008&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="21"&gt;&lt;a href="#"&gt;SharePoint Designer 2010&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="27"&gt;&lt;a href="#"&gt;Visual Studio 2010&lt;/a&gt;&lt;/li&gt;
-    &lt;li data-weight="47"&gt;&lt;a href="#"&gt;Oracle 9i&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+</style>
+ 
+
+	<ul id="tagcloud" style="width:30%;">
+	    <li data-weight="50"><a href="#">HTML5</a></li>
+		<li data-weight="24"><a href="#">Sharepoint</a></li>
+	    <li data-weight="28"><a href="#">Silverlight</a></li>
+	    <li data-weight="32"><a href="#">CSS3</a></li>
+	    <li data-weight="38"><a href="#">ASP.NET</a></li>
+	    <li data-weight="60"><a href="#">.NET</a></li>
+	    <li data-weight="38"><a href="#">C#</a></li>
+	    <li data-weight="27"><a href="#">VB.NET</a></li>
+	    <li data-weight="47"><a href="#">MySql</a></li>
+	    <li data-weight="30"><a href="#">SQL 2008</a> </li>
+	    <li data-weight="37"><a href="#">html</a></li>
+	    <li data-weight="60"><a href="#">jQuery</a></li>
+	    <li data-weight="40"><a href="#">WCF</a></li>
+	    <li data-weight="38"><a href="#">C#</a></li>
+	    <li data-weight="47"><a href="#">VB.NET</a></li>
+	    <li data-weight="20"><a href="#">Visual Studio 2008</a></li>
+	    <li data-weight="21"><a href="#">SharePoint Designer 2010</a></li>
+	    <li data-weight="27"><a href="#">Visual Studio 2010</a></li>
+	    <li data-weight="47"><a href="#">Oracle 9i</a></li>
+	</ul>
 
 
-&lt;script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" &gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="https://raw.githubusercontent.com/Tuxes3/tx3TagCloud/master/jquery.tx3-tag-cloud.js" &gt;&lt;/script&gt;
-&lt;script type="text/javascript"&gt;
-// default multiplier is "1"
-$(document).ready(function(){
-    $("#tagcloud").tx3TagCloud({
-        multiplier: 5
-    });
-});
-&lt;/script&gt;
-</code></pre>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js" ></script>
+	<script type="text/javascript" src="https://raw.githubusercontent.com/Tuxes3/tx3TagCloud/master/jquery.tx3-tag-cloud.js" ></script>
+	<script type="text/javascript">
+	// default multiplier is "1"
+	$(document).ready(function(){
+		$("#tagcloud").tx3TagCloud({
+			multiplier: 5
+		});
+	});
+	</script>
+
         </section>
 
         <footer>
